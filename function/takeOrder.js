@@ -37,15 +37,3 @@ function isGreaterThan(numberOne, numberTwo) {
   }
 }
 isGreaterThan(1,8);
-
-
-// rock, paper, scissors
-const getUserChoice = (userInput) => {
-  userInput = userInput.toLowerCase();
-  if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors') {
-    return userInput;
-  } else {
-    console.log('error');
-  }
-}
-console.log(getUserChoice('Rock'));
